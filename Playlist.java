@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
+
 public class Playlist {
     private String name;
     private List<String> songs;
@@ -23,5 +23,9 @@ public class Playlist {
         for (String song : songs) {
             System.out.println("- " + song);
         }
+    }
+
+    public String getName() {
+        return name;
     }
 }
